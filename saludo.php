@@ -1,4 +1,4 @@
 <?php
-    $nombre = $_POST['nombre'];
-    echo "¡Hola, $nombre!";
+    $nombre = $_POST['nombre', 'apellidos'];
+    echo "¡Hola, $nombre $apellidos!";
 ?>
